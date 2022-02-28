@@ -1,0 +1,299 @@
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  // background-color: lightblue;
+  margin: $center;
+
+  .bookingFormTitle {
+    font-size: 60px;
+    font-family: Proxima;
+  }
+
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .firstName {
+      width: 344px;
+      height: 58px;
+    }
+
+    .longField {
+      width: 453px;
+    }
+
+    .longerField {
+      width: 698px;
+    }
+
+    .icon {
+      margin-left: -40px;
+    }
+
+    input {
+      width: 344px;
+      height: 58px;
+      border-color: $site-blue;
+      padding-left: 10px;
+      border-style: solid;
+      border-width: 1px;
+    }
+  }
+
+  .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .formText {
+      font-size: 18px;
+      margin-top: 10px;
+      font-family: Gill;
+    }
+
+    .longField {
+      width: 453px;
+    }
+
+    .longerField {
+      width: 698px;
+      // position: relative;
+    }
+
+    // calendar icon
+    .icon {
+      margin: 20px -35px;
+      position: absolute;
+      font-size: large;
+    }
+
+    input {
+      width: 344px;
+      height: 58px;
+      border-color: $site-blue;
+      padding-left: 10px;
+      border-style: solid;
+      border-width: 1px;
+    }
+  }
+
+  .row3 {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // margin-top: 20px;
+    // position: relative;
+
+    .selectors {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px;
+      font-family: Gill;
+    }
+    .number {
+      width: 103px;
+      height: 58px;
+      margin: 0 auto;
+      border-color: #79addc;
+      border-style: solid;
+    }
+    .number:hover {
+      cursor: pointer;
+    }
+    .identifier {
+      width: 39px;
+      height: 20px;
+      text-align: center;
+    }
+  }
+}
+// OLD TESTING STUFF
+//     }
+//     .formText {
+//       font-size: 18px;
+//       margin-top: 10px;
+//       font-family: Gill;
+//     }
+
+//     .dropDown1 {
+//       position: absolute;
+//       margin-left: 195px;
+//       font-size: x-large;
+//     }
+//     .dropDown2 {
+//       position: absolute;
+//       margin-left: 500px;
+//       font-size: x-large;
+//     }
+//     .dropDown3 {
+//       position: absolute;
+//       margin-left: 790px;
+//       font-size: x-large;
+//     }
+
+//     .selectAge {
+//       width: 103px;
+//       height: 58px;
+//       border-color: $site-blue;
+//       // padding-left: 10px;
+//       border-style: solid;
+//       border-width: 1px;
+//       border-radius: 0px;
+//       padding-left: 15px;
+//       font-size: 18px;
+//       margin-left: 20px;
+
+//       -webkit-appearance: none;
+//       -moz-appearance: none;
+//       appearance: none;
+//       -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+
+//       .ageOption {
+//         //nothing here... for now
+//       }
+//     }
+//   }
+// }
+
+.row4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  input {
+    width: 818px;
+    height: 192px;
+    border-color: $site-blue;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+  }
+}
+
+.homeSubmit {
+  width: $home-submit-width;
+  height: $home-submit-height;
+  border-radius: $home-submit-border-radius;
+  color: $site-white;
+  border: solid;
+  background-color: $site-blue;
+  margin: 37px auto 0 auto;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: Gill;
+}
+
+@media screen and (max-width: 800px) {
+  .form-content {
+    max-width: 450px;
+
+    .bookingFormTitle {
+      text-align: center;
+    }
+    .row1 {
+      .firstName {
+        width: 200px;
+        margin-right: 10px;
+      }
+      .longField {
+        width: 400px;
+      }
+    }
+
+    .row2 {
+      // uncomment these if you want to see how it looks with columns instead of rows, as well as notes in longerField
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+
+      .formText {
+        margin-right: 10px;
+      }
+
+      .longerField {
+        // uncomment width of 450 for the column version of this site
+        // width: 450px;
+        width: 387px;
+      }
+    }
+
+    .row3 {
+ 
+      .selectors {
+        width: 470px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        margin-left: -20px;
+      }
+
+      .number {
+        width: 103px;
+        height: 58px;
+        margin: 0 auto;
+        border-color: #79addc;
+        border-style: solid;
+      }
+      .identifier {
+        width: 39px;
+        height: 20px;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 20px;
+      }
+    }
+    .homeSubmit {
+      width: 450px;
+      margin-bottom: 104px;
+      background-color: #79ADDC;
+      height: 60px;
+      text-align: center;
+      border: none;
+      color: #fff;
+      border-radius: 50px;
+    }
+  }
+}
+
+//     .row3 {
+//       // min-width: 450px;
+//     }
+
+//     .formText {
+//       margin-left: 20px;
+//     }
+
+//     .row4 {
+//       input {
+//         margin-left: 10px;
+//         margin-right: 10px;
+//       }
+//     }
+
+//     .homeSubmit {
+//       // color: black;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       min-width: 400px;
+//       text-align: center;
+//       text-decoration: none;
+//     }
+//   }
+// }

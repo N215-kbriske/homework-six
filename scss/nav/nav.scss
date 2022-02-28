@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+  
+
+    .logoText {
+      color: $site-white;
+      font-family: Gill;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  .links {
+    a {
+      color: $site-white;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: Gill;
+    }
+
+    span {
+      color: #79ADDC;
+      margin: 0px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    max-width: 450px;
+  }
+  nav .logo {
+    max-width: 70px;
+  }
+  nav .links span {
+    margin: 0px 5px;
+  }
+}
