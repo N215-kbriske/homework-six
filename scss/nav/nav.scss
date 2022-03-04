@@ -8,7 +8,7 @@
   src: url(../fonts/GillSans.ttc);
 }
 
-nav {
+.nav-blue {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,6 @@ nav {
     border: 2px;
     border-color: #fff;
     border-style: solid;
-  
 
     .logoText {
       color: $site-white;
@@ -46,7 +45,50 @@ nav {
     }
 
     span {
-      color: #79ADDC;
+      color: #79addc;
+      margin: 0px 20px;
+    }
+  }
+}
+
+.nav-black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    border: 2px;
+    border-color: $site-black;
+    border-style: solid;
+
+    .logoText {
+      color: $site-black;
+      font-family: Gill;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  .links {
+    a {
+      color: $site-black;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: Gill;
+    }
+
+    span {
+      color: #79addc;
       margin: 0px 20px;
     }
   }

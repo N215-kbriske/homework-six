@@ -18,3 +18,10 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+#app {
+  max-width: $site-width;
+  margin: 0 auto;
+  // min-height: 200px;
+  // background-color: antiquewhite;
+}

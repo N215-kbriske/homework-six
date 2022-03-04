@@ -21,6 +21,11 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: Proxima;
   src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
@@ -29,7 +34,7 @@ p {
   font-family: Gill;
   src: url(../fonts/GillSans.ttc);
 }
-nav {
+.nav-blue {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,28 +46,65 @@ nav {
   position: relative;
   z-index: 99;
 }
-nav .logo {
+.nav-blue .logo {
   width: 92px;
   height: 42px;
   border: 2px;
   border-color: #fff;
   border-style: solid;
 }
-nav .logo .logoText {
+.nav-blue .logo .logoText {
   color: #FFFFFF;
   font-family: Gill;
   font-size: 15px;
   text-align: center;
   margin-top: 10px;
 }
-nav .links a {
+.nav-blue .links a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 15px;
   font-family: Gill;
 }
-nav .links span {
-  color: #79ADDC;
+.nav-blue .links span {
+  color: #79addc;
+  margin: 0px 20px;
+}
+
+.nav-black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  position: relative;
+  z-index: 99;
+}
+.nav-black .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px;
+  border-color: #000000;
+  border-style: solid;
+}
+.nav-black .logo .logoText {
+  color: #000000;
+  font-family: Gill;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+.nav-black .links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Gill;
+}
+.nav-black .links span {
+  color: #79addc;
   margin: 0px 20px;
 }
 
@@ -525,6 +567,77 @@ nav .links span {
   color: #FFFFFF;
   margin-right: 22px;
   font-size: x-large;
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: -4px;
+}
+.about .about-header hr {
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: Gill;
+  font-size: 16px;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-family: Proxima;
+  font-size: 40px;
+}
+.about .about-client-quotes hr {
+  width: 210px;
+  border: 1px solid;
+  margin-bottom: 36px;
+  margin-top: -10px;
+}
+.about .about-client-quotes .client-box {
+  position: relative;
+  display: flex;
+  max-width: 722px;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Proxima;
+  font-size: 20px;
+  color: #79ADDC;
 }
 
 /*# sourceMappingURL=styles.css.map */
