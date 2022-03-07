@@ -95,13 +95,26 @@
 }
 
 @media screen and (max-width: 800px) {
-  nav {
+  .nav-blue {
     max-width: 450px;
   }
-  nav .logo {
+  .nav-blue .logo {
     max-width: 70px;
   }
-  nav .links span {
+  .nav-blue .links span {
     margin: 0px 5px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .nav-black {
+    max-width: 450px;
+  }
+  .nav-black .logo {
+    max-width: 70px;
+  }
+  .nav-black .links span {
+    margin: 0px 5px;
+  }
+}
+

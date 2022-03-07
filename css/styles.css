@@ -109,15 +109,28 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  nav {
+  .nav-blue {
     max-width: 450px;
   }
 
-  nav .logo {
+  .nav-blue .logo {
     max-width: 70px;
   }
 
-  nav .links span {
+  .nav-blue .links span {
+    margin: 0px 5px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav-black {
+    max-width: 450px;
+  }
+
+  .nav-black .logo {
+    max-width: 70px;
+  }
+
+  .nav-black .links span {
     margin: 0px 5px;
   }
 }
@@ -638,6 +651,37 @@ p {
   font-family: Proxima;
   font-size: 20px;
   color: #79ADDC;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    max-width: 450px;
+    text-align: center;
+    margin: 60px 20px 90px 20px;
+  }
+  .about .about-header hr {
+    margin-left: 150px;
+  }
+  .about .about-client-quotes {
+    margin-top: 90px;
+  }
+  .about .about-client-quotes hr {
+    margin-left: 127px;
+  }
+  .about .about-client-quotes .client-box {
+    position: relative;
+    display: flex;
+    max-width: 722px;
+    margin-bottom: 37px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .about-client-quotes .client-box .client-image {
+    margin: 10px 0px 10px 17px;
+  }
+  .about .about-client-quotes .client-name {
+    margin-right: 170px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
