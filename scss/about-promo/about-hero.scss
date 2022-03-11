@@ -1,0 +1,611 @@
+.about-hero-1 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-2 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-3 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-4 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-5 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-6 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-7 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-8 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-9 {
+  max-width: $content-width;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+
+  .about-hero-text {
+    font-size: 50px;
+    font-family: Proxima;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-price-text {
+    font-size: 30px;
+    margin-bottom: 0px; /* takes out the margin from <p>*/
+    font-style: italic;
+    position: absolute;
+    font-family: Proxima;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.tour-details-img-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  .tour-details-image-01 {
+    @include TDImage();
+    background-image: url(../images/tour-israel/israel-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tour-details-image-02 {
+    @include TDImage();
+    background-image: url(../images/tour-israel/israel-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tour-details-image-03 {
+    @include TDImage();
+    background-image: url(../images/tour-israel/israel-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+// TOUR IMAGES FOR U.S.A
+.tour-details-image-02-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-usa/usa-tour-01.jpg)
+  );
+}
+.tour-details-image-02-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-usa/usa-tour-02.jpg)
+  );
+}
+.tour-details-image-02-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-usa/usa-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR AUSTRALIA
+.tour-details-image-03-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-aus/aus-tour-01.jpg)
+  );
+}
+.tour-details-image-03-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-aus/aus-tour-02.jpg)
+  );
+}
+.tour-details-image-03-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-aus/aus-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR NEW ZEALAND
+.tour-details-image-04-01 {
+  @include TDImage($background-image: url(../images/tour-nz/nz-tour-01.jpg));
+}
+.tour-details-image-04-02 {
+  @include TDImage($background-image: url(../images/tour-nz/nz-tour-02.jpg));
+}
+.tour-details-image-04-03 {
+  @include TDImage($background-image: url(../images/tour-nz/nz-tour-03.jpg));
+}
+
+// TOUR IMAGES FOR FRANCE
+.tour-details-image-05-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-france/france-tour-01.jpg)
+  );
+}
+.tour-details-image-05-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-france/france-tour-02.jpg)
+  );
+}
+.tour-details-image-05-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-france/france-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR EGYPT
+.tour-details-image-06-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-egypt/egypt-tour-01.jpg)
+  );
+}
+.tour-details-image-06-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-egypt/egypt-tour-02.jpg)
+  );
+}
+.tour-details-image-06-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-egypt/egypt-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR JAPAN
+.tour-details-image-07-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-japan/japan-tour-01.jpg)
+  );
+}
+.tour-details-image-07-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-japan/japan-tour-02.jpg)
+  );
+}
+.tour-details-image-07-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-japan/japan-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR CANADA
+.tour-details-image-08-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-canada/canada-tour-01.jpg)
+  );
+}
+.tour-details-image-08-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-canada/canada-tour-02.jpg)
+  );
+}
+.tour-details-image-08-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-canada/canada-tour-03.jpg)
+  );
+}
+
+// TOUR IMAGES FOR U.A.E
+.tour-details-image-09-01 {
+  @include TDImage(
+    $background-image: url(../images/tour-uae/uae-tour-01.jpg)
+  );
+}
+.tour-details-image-09-02 {
+  @include TDImage(
+    $background-image: url(../images/tour-uae/uae-tour-02.jpg)
+  );
+}
+.tour-details-image-09-03 {
+  @include TDImage(
+    $background-image: url(../images/tour-uae/uae-tour-03.jpg)
+  );
+}
+
+.about-tour-header-1 {
+  margin-top: 19px;
+
+  h1 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: -4px;
+  }
+
+  hr {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 36px;
+  }
+
+  p {
+    font-family: Gill;
+    font-size: 16px;
+  }
+}
+
+.about-tour-header-2 {
+  margin-top: 80px;
+
+  h1 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: -4px;
+  }
+
+  hr {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 36px;
+  }
+
+  p {
+    font-family: Gill;
+    font-size: 16px;
+  }
+}
+
+.about-tour-header-3 {
+  margin-top: 80px;
+
+  h1 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: -4px;
+  }
+
+  hr {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 36px;
+  }
+
+  p {
+    font-family: Gill;
+    font-size: 16px;
+  }
+}
+
+.book-now-btn {
+  display: flex;
+  justify-content: center;
+
+  .read-btn {
+    @include site-button();
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-hero-1 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-2 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-3 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-4 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-5 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-6 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-7 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-8 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-9 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .tour-details-img-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .about-tour-header-1 {
+    margin-top: 70px;
+    text-align: center;
+    hr {
+      margin-left: 175px;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+  }
+
+  .about-tour-header-2 {
+    margin-top: 70px;
+    text-align: center;
+    hr {
+      margin-left: 175px;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+  }
+
+  .about-tour-header-3 {
+    margin-top: 70px;
+    text-align: center;
+    hr {
+      margin-left: 175px;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+  }
+}

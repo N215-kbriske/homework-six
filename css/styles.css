@@ -683,5 +683,1185 @@ p {
     margin-right: 170px;
   }
 }
+.about-promo-1 {
+  max-width: 980px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-promo-1 .promo-1 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-1 .promo-1 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-1 .promo-1 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+}
+.about-promo-1 .promo-1 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-1 .promo-2 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-1 .promo-2 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-1 .promo-2 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+}
+.about-promo-1 .promo-2 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-1 .promo-3 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-1 .promo-3 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-1 .promo-3 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+}
+.about-promo-1 .promo-3 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+
+.about-promo-2 {
+  max-width: 980px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-promo-2 .promo-4 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-2 .promo-4 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-2 .promo-4 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-2 .promo-4 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-2 .promo-5 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-2 .promo-5 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-2 .promo-5 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-2 .promo-5 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-2 .promo-6 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-2 .promo-6 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-2 .promo-6 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-2 .promo-6 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+
+.about-promo-3 {
+  max-width: 980px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-promo-3 .promo-7 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-3 .promo-7 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-3 .promo-7 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-3 .promo-7 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-3 .promo-8 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-3 .promo-8 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-3 .promo-8 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-3 .promo-8 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+.about-promo-3 .promo-9 {
+  height: 304px;
+  width: 235px;
+  background-color: #ffdab9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-promo-3 .promo-9 .promo-text {
+  font-size: 60px;
+  font-family: Proxima;
+}
+.about-promo-3 .promo-9 .promo-price {
+  font-size: 30px;
+  font-family: Proxima;
+  margin: 0;
+}
+.about-promo-3 .promo-9 .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-promo-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-promo-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-promo-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-hero-1 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-1 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-1 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-2 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-2 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-2 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-3 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-3 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-3 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-4 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-4 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-4 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-5 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-5 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-5 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-6 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-6 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-6 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-7 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-7 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-7 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-8 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-8 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-8 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.about-hero-9 {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  margin-top: 49px;
+}
+.about-hero-9 .about-hero-text {
+  font-size: 50px;
+  font-family: Proxima;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero-9 .about-price-text {
+  font-size: 30px;
+  margin-bottom: 0px;
+  /* takes out the margin from <p>*/
+  font-style: italic;
+  position: absolute;
+  font-family: Proxima;
+  right: 10px;
+  bottom: 10px;
+}
+
+.tour-details-img-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.tour-details-img-container .tour-details-image-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/tour-israel/israel-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tour-details-img-container .tour-details-image-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/tour-israel/israel-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tour-details-img-container .tour-details-image-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/tour-israel/israel-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-02-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-02-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-usa/usa-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-02-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-03-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-03-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-03-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-04-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-04-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-04-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-05-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-05-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-05-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-06-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-06-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-06-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-07-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-07-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-07-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-08-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-08-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-08-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-09-01 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-09-02 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tour-details-image-09-03 {
+  height: 347px;
+  width: 298px;
+  margin-top: 40px;
+  background-image: url(../images/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-tour-header-1 {
+  margin-top: 19px;
+}
+.about-tour-header-1 h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: -4px;
+}
+.about-tour-header-1 hr {
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about-tour-header-1 p {
+  font-family: Gill;
+  font-size: 16px;
+}
+
+.about-tour-header-2 {
+  margin-top: 80px;
+}
+.about-tour-header-2 h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: -4px;
+}
+.about-tour-header-2 hr {
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about-tour-header-2 p {
+  font-family: Gill;
+  font-size: 16px;
+}
+
+.about-tour-header-3 {
+  margin-top: 80px;
+}
+.about-tour-header-3 h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: -4px;
+}
+.about-tour-header-3 hr {
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about-tour-header-3 p {
+  font-family: Gill;
+  font-size: 16px;
+}
+
+.book-now-btn {
+  display: flex;
+  justify-content: center;
+}
+.book-now-btn .read-btn {
+  background-color: #79ADDC;
+  padding: 8px 19px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: Gill;
+  font-size: 15px;
+  margin-top: 56px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-hero-1 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-2 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-3 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-4 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-5 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-6 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-7 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-8 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .about-hero-9 {
+    max-width: 450px;
+    margin: 60px 20px 40px 20px;
+  }
+
+  .tour-details-img-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .about-tour-header-1 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .about-tour-header-1 hr {
+    margin-left: 175px;
+  }
+  .about-tour-header-1 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+
+  .about-tour-header-2 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .about-tour-header-2 hr {
+    margin-left: 175px;
+  }
+  .about-tour-header-2 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+
+  .about-tour-header-3 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .about-tour-header-3 hr {
+    margin-left: 175px;
+  }
+  .about-tour-header-3 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+}
+.tours-hero {
+  margin-top: 50px;
+  width: 980px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours-hero .tours-hero-text {
+  font-family: Proxima;
+  font-size: 60px;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .tours-hero {
+    max-width: 450px;
+    margin: 50px auto 0px auto;
+  }
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: -4px;
+}
+.about .about-header hr {
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: Gill;
+  font-size: 16px;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-family: Proxima;
+  font-size: 40px;
+}
+.about .about-client-quotes hr {
+  width: 210px;
+  border: 1px solid;
+  margin-bottom: 36px;
+  margin-top: -10px;
+}
+.about .about-client-quotes .client-box {
+  position: relative;
+  display: flex;
+  max-width: 722px;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Proxima;
+  font-size: 20px;
+  color: #79ADDC;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    max-width: 450px;
+    text-align: center;
+    margin: 60px 20px 90px 20px;
+  }
+  .about .about-header hr {
+    margin-left: 150px;
+  }
+  .about .about-client-quotes {
+    margin-top: 90px;
+  }
+  .about .about-client-quotes hr {
+    margin-left: 127px;
+  }
+  .about .about-client-quotes .client-box {
+    position: relative;
+    display: flex;
+    max-width: 722px;
+    margin-bottom: 37px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .about-client-quotes .client-box .client-image {
+    margin: 10px 0px 10px 17px;
+  }
+  .about .about-client-quotes .client-name {
+    margin-right: 170px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

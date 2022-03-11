@@ -1,8 +1,13 @@
 @import "variables.scss";
+@import "mixins.scss";
 @import "structure.scss";
 @import "nav/nav.scss";
 @import "home/banner.scss";
 @import "home/form-content.scss";
 @import "home/tiles.scss";
 @import "home/footer.scss";
+@import "about/about.scss";
+@import "about-promo/about-promo.scss";
+@import "about-promo/about-hero.scss";
+@import "about-promo/tours-hero.scss";
 @import "about/about.scss";

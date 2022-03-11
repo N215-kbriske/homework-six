@@ -1,0 +1,256 @@
+// was just one, remember that
+
+.about-promo-1 {
+  max-width: $content-width;
+  min-height: 304px;
+  //   background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+
+  .promo-1 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-2 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-3 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+}
+
+.about-promo-2 {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+
+  .promo-4 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-04.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-5 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-05.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-6 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-06.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+}
+
+.about-promo-3 {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+
+  .promo-7 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-8 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-08.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+
+  .promo-9 {
+    @include promo();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-09.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-text {
+      font-size: 60px;
+      font-family: Proxima;
+    }
+
+    .promo-price {
+      font-size: 30px;
+      font-family: Proxima;
+      margin: 0;
+    }
+
+    .read-btn {
+      @include site-button();
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-promo-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-promo-2{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-promo-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
