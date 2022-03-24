@@ -1,0 +1,107 @@
+.special-offers {
+  width: $content-width;
+  margin-top: 60px;
+
+  .special-offers-header {
+    h1 {
+      font-family: Proxima;
+      font-size: 30px;
+      font-weight: lighter;
+      margin-bottom: 7px;
+    }
+
+    hr {
+      width: 155px;
+      border: 1px solid;
+      margin-bottom: 60px;
+    }
+  }
+
+  .special-offers-content {
+    display: flex;
+    margin-bottom: 60px;
+
+    .special-offers-image {
+      max-width: 199px;
+      height: 287px;
+      margin-right: 20px;
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+
+      .special-offers-title {
+        h1 {
+          font-family: Proxima;
+          font-size: 30px;
+          font-weight: lighter;
+          margin-bottom: 7px;
+        }
+
+        hr {
+          width: 168px;
+          border: 1px solid;
+          margin-bottom: 60px;
+        }
+      }
+
+      .special-price {
+        position: absolute;
+        color: #FF7D38;
+        font-family: Proxima;
+        font-size: 20px;
+        font-weight: lighter;
+        top: 260px;
+        right: 620px;
+      }
+
+      .special-offers-text {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+      }
+    }
+
+    .base-btn {
+      display: flex;
+      justify-content: left;
+      margin-top: 50px;
+
+      .learn-more-btn {
+        @include site-button();
+        margin-top: 60px;
+      }
+    }
+  }
+
+  .special-offers-title-2 {
+    h1 {
+      font-family: Proxima;
+      font-size: 30px;
+      font-weight: lighter;
+      margin-bottom: 7px;
+    }
+
+    hr {
+      width: 168px;
+      border: 1px solid;
+      margin-bottom: 60px;
+    }
+  }
+
+  .special-price-2 {
+    position: absolute;
+    color: #FF7D38;
+    font-family: Proxima;
+    font-size: 20px;
+    font-weight: lighter;
+    top: 610px;
+    right: 625px;
+  }
+}
