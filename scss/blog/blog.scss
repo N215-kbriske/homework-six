@@ -1,0 +1,97 @@
+.blog-content {
+  width: $content-width;
+  margin-top: 60px;
+
+  .blog-header {
+    h1 {
+      font-family: Proxima;
+      font-size: 30px;
+      font-weight: lighter;
+      margin-bottom: 7px;
+    }
+
+    hr {
+      width: 85px;
+      border: 1px solid;
+      margin-bottom: 32px;
+    }
+  }
+
+  .blog-post {
+    width: $content-width;
+    height: 430px;
+    // background-color: lavender;
+
+    .blog-post-container {
+      width: $content-width;
+    //   background-color: antiquewhite;
+      position: relative;
+
+      //interesting
+      display: flex;
+      justify-content: space-between;
+
+      .blog-date {
+        width: 60px;
+        height: 60px;
+        background-color: $site-blue;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 22px;
+        color: $site-white;
+        font-weight: bolder;
+      }
+
+      .blog-month-1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 12px;
+        color: $site-white;
+        font-weight: lighter;
+        position: absolute;
+        top: 35px;
+        left: 20px;
+      }
+
+      .blog-image {
+        max-width: 900px;
+        height: 259px;
+
+        img {
+        width: 900px;
+        height: 259px;
+        // background-color: aliceblue;
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        }
+      }
+    }
+
+    .blog-post-title {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .blog-post-description {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+        font-size: 13px;
+        color: $site-blue;
+        margin-left: 80px;
+        margin-top: 11px;
+    }
+  }
+}
+
+.spacer {
+    width: $content-width;
+    height: 35px;
+    // background-color: aquamarine;
+}
